@@ -1,4 +1,4 @@
-# agent-chat
+# claude-agent-chat
 
 A Claude Code mod that starts a new Claude Desktop session whose **main agent** is one of your custom agents (from `.claude/agents/` or `~/.claude/agents/`), with its own model, effort, system prompt and skills.
 
