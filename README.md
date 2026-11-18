@@ -18,14 +18,15 @@ Answer `y` to add the marketplace, then choose a scope (`user` makes it availabl
 
 ### Agent picker
 
+> [!NOTE]
+> The picker only lists custom agents that already exist. Set up an agent first, as an agent file in `.claude/agents/` (project) or `~/.claude/agents/` (user). See [Create custom subagents](https://code.claude.com/docs/en/sub-agents) in the Claude Code docs.
+
 The Claude Code desktop app has no built-in option to:
 
 - open a new session with a custom agent, such as one defined in `.claude/agents/`
 - talk to a custom agent in an existing session
 
 The agent picker fills that gap: pick an agent above the message box and your request goes straight to it.
-
-> **Note:** The picker only lists custom agents that already exist. Set up an agent first, as an agent file in `.claude/agents/` (project) or `~/.claude/agents/` (user). See [Create custom subagents](https://code.claude.com/docs/en/sub-agents) in the Claude Code docs.
 
 ![Agent picker above the message box in the Claude desktop app, with a "Send to" dropdown, the hint text, the agent's model and effort, and its description](docs/images/agent-picker.png)
 
@@ -72,7 +73,8 @@ The session keeps the agent: its transcript records `agentSetting: <agent>`, so 
 - macOS only for now: it uses `/usr/bin/uuidgen` and `script`.
 - Needs the `claude` CLI on `PATH` (it also looks in `~/.local/bin`, `/opt/homebrew/bin` and `/usr/local/bin`).
 
-> **Tip:** Make the first request a simple one, such as "Hi, what can you do?", just to start the new session. Once it appears in the desktop app, open it and do the real work there.
+> [!TIP]
+> Make the first request a simple one, such as "Hi, what can you do?", just to start the new session. Once it appears in the desktop app, open it and do the real work there.
 
 ## Troubleshooting
 
