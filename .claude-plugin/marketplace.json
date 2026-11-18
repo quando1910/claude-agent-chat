@@ -1,0 +1,11 @@
+{
+  "name": "claude-agent-chat",
+  "owner": { "name": "Quan Do" },
+  "plugins": [
+    {
+      "name": "agent-chat",
+      "source": "./",
+      "description": "Start a new Claude Desktop session whose main agent is one of your custom agents."
+    }
+  ]
+}

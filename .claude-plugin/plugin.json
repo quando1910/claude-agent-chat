@@ -1,0 +1,9 @@
+{
+  "name": "agent-chat",
+  "version": "0.2.0",
+  "description": "Start a new Claude Desktop session whose main agent is one of your custom agents, from a picker above the message box or with /agent-chat <agent> <request>.",
+  "author": { "name": "Quan Do" },
+  "license": "MIT",
+  "keywords": ["agents", "subagents", "desktop", "sessions"],
+  "types": "./types/index.d.ts"
+}
